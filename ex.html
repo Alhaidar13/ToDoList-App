@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Header Card</title>
+  <link rel="stylesheet" href="css/ex.css">
+</head>
+<body>
+  <div class="profile-card">
+    <div class="profile-left">
+      <div class="avatar">
+        <img src="images/PF$.jpg" alt="User Icon">
+      </div>
+      <div class="profile-info">
+        <div class="name">MUHAMMAD FIKRI ALHAIDAR</div>
+        <div class="position">Web Developer</div>
+      </div>
+    </div>
+    <div class="profile-right">
+      <div class="date">06 Juni 2025</div>
+      <div class="time">20.47.38</div>
+    </div>
+  </div>
+
+  <!-- Form Tambah Task Baru -->
+    <div class="task-form">
+  <h2>Tambah Task Baru</h2>
+  <form>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="prioritas">Prioritas</label>
+        <select id="prioritas">
+          <option disabled selected>Pilih Prioritas</option>
+          <option>Rendah</option>
+          <option>Menengah</option>
+          <option>Tinggi</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="tanggal">Tanggal</label>
+        <input type="date" id="tanggal">
+      </div>
+    </div>
+
+    <div class="form-group-full">
+       <label for="prioritas">Task</label>
+      <textarea rows="4" placeholder="Add your assignment..."></textarea>
+    </div>
+
+    <div class="button-row">
+      <button type="reset" class="reset-btn">Reset</button>
+      <button type="submit" class="submit-btn">Tambah Task</button>
+    </div>
+  </form>
+</div>
+<div class="task-tabs-container">
+  <div class="tabs-header">
+    <span class="tab active">To-Do</span>
+    <span class="tab">Selesai</span>
+    <span class="tab delete-all">Hapus Semua</span>
+  </div>
+  <div class="tabs-content">
+    <p class="empty-message">Belum ada task. Tambahkan task pertama Anda!</p>
+  </div>
+</div>
+
+
+<script src="js/ex.js "></script>
+</body>
+</html>
+ 
